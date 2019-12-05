@@ -3,7 +3,7 @@ speech compensation (BWE &amp; PLC) based on deep neural networks
 /**********************************************************************************************************************************/
 
 This document includes brief instructions on how to build an NN-based processing chain for speech compensation.
-- Author:  Yupeng Shi, Nengheng Zheng, Yuyong Kang, Weicong Rong
+- Author:  Yupeng Shi, Nengheng Zheng, Yuyong Kang, and Weicong Rong
 - e-mail:  szucieer@gmail.com
 - Date: 05/12/2019
 
@@ -76,5 +76,5 @@ If you find it useful to your research, pleade cite the following papers:
 
 [2] S. Pascual, A. Bonafonte, and J. Serrà, “SEGAN: Speech enhancement generative adversarial network,” In INTERSPEECH, 2017.
 
-[3] Y. P. Shi, N. H. Zheng, Y. Y. Kang, W. C. Rong, "Speech Loss Compensation by Generative Adversarial Networks," In APSIPA, 2019.
+[3] Y. P. Shi, N. H. Zheng, Y. Y. Kang, and W. C. Rong, "Speech Loss Compensation by Generative Adversarial Networks," In APSIPA, 2019.
 
