@@ -71,7 +71,10 @@ You can visualize the train process using **tensorboard**:
 #### 5. Some references
 In this project, the GANs struction is modified from the proposed model by Santiago et al..
 If you find it useful to your research, pleade cite the following papers:
+
 [1] Y. Xu, JunDu, L. R. Dai, and C. H. Lee, "An Experimental Study on Speech Enhancement Based on Deep Neural Networks," IEEE signal processing letters, pp. 65-68,vol.21,no. 1, JaN. 2014.
+
 [2] S. Pascual, A. Bonafonte, and J. Serrà, “SEGAN: Speech enhancement generative adversarial network,” In INTERSPEECH, 2017.
+
 [3] Y. P. Shi, N. H. Zheng, Y. Y. Kang, W. C. Rong, "Speech Loss Compensation by Generative Adversarial Networks," In APSIPA, 2019.
 
