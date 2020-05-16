@@ -18,12 +18,12 @@ This project is a Python implementation of Speech Compensation (SC) based on dee
                 tensorflow_gpu          0.12.1
                 librosa                 0.6.3  or later
                 Soundfile               0.10.2 or later
-                numppy                  1.12.1
+                numpy                  1.12.1
                 scipy                   0.18.1  or later
                 tensorboardX            1.2    or later
                 python                  2.7    
 
- We suggest to install anaconda3 in Linux, and you can install those dependence by conda or pip.
+ We suggest to install anaconda3 in Linux, and you can install those dependences by conda or pip.
 ***
 ## Systematic description
 
@@ -31,7 +31,7 @@ This project is a Python implementation of Speech Compensation (SC) based on dee
 ###### 1.1 Generating stimulated wav files
   a) In this project, you can train the models with the impaired sampels simulated by **Low-pass filters** and **OPUS codec** . The sample rate of the NN-based **SC** system is **16kHz**.
             
-  b) Some python scripts in are designed for processing the raw data. For generating narrow band signal, Please refer to **boneloss_lowpass.py** in **./GANSC**. As for obtaining pack loss simulation, Opus codec codes can be download from GitHub (https://github.com/xiph/opus). Besides, the ITU-T Software Tool Library (G.191) ((https://github.com/openitu/STL)) can be implemented to generate tele-phone transmitted narrowband speech.
+  b) Some python scripts in are designed for processing the raw data. For generating narrowband signal, Please refer to **boneloss_lowpass.py** in **./GANSC**. As for obtaining pack loss simulation, Opus codec codes can be download from GitHub (https://github.com/xiph/opus). Besides, the ITU-T Software Tool Library (G.191) ((https://github.com/openitu/STL)) can also be implemented to generate telephone transmitted narrowband speech.
 ###### 1.2 preprocessing the wav files and storing the features in **.tfrecords** files for GANs while **.h5** for DNN
   To accelerate the whole NN training, parallel computing have been adopted in the data preprocessing. **Short Time Fourier Transform (STFT)** or **waveform chunks** are extracted for NN input. More details can be referred to **./GANSC/make_tfrecords.py** and **./DNNSC/prepare_data.py**.
 #### 2. NN training
